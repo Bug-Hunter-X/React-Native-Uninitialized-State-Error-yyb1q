@@ -1,0 +1,1 @@
+To fix this, ensure the state is properly initialized and accessed only after it has been updated.  One approach is to conditionally render content based on whether the state is initialized.  Another is to use the useEffect hook to perform actions after the component mounts and the state is updated.
